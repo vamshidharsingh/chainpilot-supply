@@ -1,0 +1,16 @@
+[
+  {
+    "id": "product-1",
+    "sku": "PART-A",
+    "name": "Precision bracket",
+    "unit": "piece",
+    "reorder_point": 20
+  },
+  {
+    "id": "product-2",
+    "sku": "PART-B",
+    "name": "Assembly housing",
+    "unit": "piece",
+    "reorder_point": 10
+  }
+]
