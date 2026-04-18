@@ -1,0 +1,22 @@
+{
+  "name": "receipts",
+  "description": "Immutable purchase-order receipt confirmations.",
+  "fields": {
+    "purchase_order_id": {
+      "type": "string",
+      "ref": "purchase_orders"
+    },
+    "quantity": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "reference": {
+      "type": "string"
+    }
+  },
+  "writable": false,
+  "unique": [
+    "purchase_order_id",
+    "reference"
+  ]
+}
