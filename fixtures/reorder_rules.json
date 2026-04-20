@@ -1,0 +1,9 @@
+[
+  {
+    "id": "reorder-1",
+    "product_id": "product-2",
+    "supplier_id": "supplier-1",
+    "minimum_quantity": 10,
+    "order_quantity": 50
+  }
+]
