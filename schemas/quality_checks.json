@@ -1,0 +1,27 @@
+{
+  "name": "quality_checks",
+  "description": "Inspection results for supplier products.",
+  "fields": {
+    "product_id": {
+      "type": "string",
+      "ref": "products"
+    },
+    "result": {
+      "type": "string",
+      "enum": [
+        "pass",
+        "fail",
+        "pending"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    },
+    "sample_count": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "writable": true,
+  "unique": []
+}
