@@ -1,0 +1,9 @@
+[
+  {
+    "id": "quality-1",
+    "product_id": "product-1",
+    "result": "pass",
+    "notes": "Synthetic inspection sample",
+    "sample_count": 5
+  }
+]
