@@ -1,0 +1,8 @@
+[
+  {
+    "id": "carrier-1",
+    "name": "Example Logistics",
+    "service": "Road freight",
+    "contact": "dispatch@example.test"
+  }
+]
