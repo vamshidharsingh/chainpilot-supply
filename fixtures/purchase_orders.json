@@ -1,0 +1,11 @@
+[
+  {
+    "id": "po-1",
+    "supplier_id": "supplier-1",
+    "product_id": "product-1",
+    "warehouse_id": "warehouse-1",
+    "quantity": 100,
+    "unit_cost_cents": 350,
+    "status": "approved"
+  }
+]
