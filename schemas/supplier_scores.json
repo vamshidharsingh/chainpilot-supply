@@ -1,0 +1,25 @@
+{
+  "name": "supplier_scores",
+  "description": "Human-entered supplier performance assessments.",
+  "fields": {
+    "supplier_id": {
+      "type": "string",
+      "ref": "suppliers"
+    },
+    "on_time_percent": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "quality_percent": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "writable": true,
+  "unique": []
+}
