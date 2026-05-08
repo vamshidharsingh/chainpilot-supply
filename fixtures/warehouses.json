@@ -1,0 +1,14 @@
+[
+  {
+    "id": "warehouse-1",
+    "name": "North distribution",
+    "city": "Demo City",
+    "capacity_units": 10000
+  },
+  {
+    "id": "warehouse-2",
+    "name": "South distribution",
+    "city": "Sample City",
+    "capacity_units": 5000
+  }
+]
