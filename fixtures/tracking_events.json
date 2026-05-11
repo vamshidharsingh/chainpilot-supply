@@ -1,0 +1,9 @@
+[
+  {
+    "id": "track-1",
+    "shipment_reference": "DEMO-ONLY",
+    "location": "Demo depot",
+    "event": "arrived",
+    "occurred_at": "2026-10-01T09:00:00+00:00"
+  }
+]
