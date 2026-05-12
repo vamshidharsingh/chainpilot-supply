@@ -1,0 +1,9 @@
+[
+  {
+    "id": "exception-1",
+    "subject": "Reorder product B",
+    "severity": "medium",
+    "status": "open",
+    "reference": "product-2"
+  }
+]
