@@ -1,0 +1,9 @@
+[
+  {
+    "id": "score-1",
+    "supplier_id": "supplier-1",
+    "on_time_percent": 94,
+    "quality_percent": 98,
+    "notes": "Synthetic sample only"
+  }
+]
