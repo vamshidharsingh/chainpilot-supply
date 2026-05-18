@@ -1,0 +1,25 @@
+{
+  "name": "inventory",
+  "description": "Transactional stock positions; balances are workflow-managed.",
+  "fields": {
+    "product_id": {
+      "type": "string",
+      "ref": "products"
+    },
+    "warehouse_id": {
+      "type": "string",
+      "ref": "warehouses"
+    },
+    "quantity": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "writable": false,
+  "unique": [
+    [
+      "product_id",
+      "warehouse_id"
+    ]
+  ]
+}
