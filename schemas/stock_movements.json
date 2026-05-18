@@ -1,0 +1,30 @@
+{
+  "name": "stock_movements",
+  "description": "Signed stock events for inbound, outbound and transfer workflows.",
+  "fields": {
+    "product_id": {
+      "type": "string",
+      "ref": "products"
+    },
+    "warehouse_id": {
+      "type": "string",
+      "ref": "warehouses"
+    },
+    "quantity_delta": {
+      "type": "integer"
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "receipt",
+        "dispatch",
+        "transfer"
+      ]
+    },
+    "reference": {
+      "type": "string"
+    }
+  },
+  "writable": false,
+  "unique": []
+}
