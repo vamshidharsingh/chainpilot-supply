@@ -1,0 +1,29 @@
+{
+  "name": "exceptions",
+  "description": "Operational issue queue.",
+  "fields": {
+    "subject": {
+      "type": "string"
+    },
+    "severity": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "open",
+        "resolved"
+      ]
+    },
+    "reference": {
+      "type": "string"
+    }
+  },
+  "writable": true,
+  "unique": []
+}
