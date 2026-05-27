@@ -1,0 +1,9 @@
+[
+  {
+    "id": "batch-1",
+    "product_id": "product-1",
+    "lot_number": "LOT-DEMO",
+    "manufactured_on": "2026-09-01",
+    "quantity": 50
+  }
+]
