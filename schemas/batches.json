@@ -1,0 +1,25 @@
+{
+  "name": "batches",
+  "description": "Lot metadata for product traceability.",
+  "fields": {
+    "product_id": {
+      "type": "string",
+      "ref": "products"
+    },
+    "lot_number": {
+      "type": "string"
+    },
+    "manufactured_on": {
+      "type": "string",
+      "format": "date"
+    },
+    "quantity": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "writable": true,
+  "unique": [
+    "lot_number"
+  ]
+}
