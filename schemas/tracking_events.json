@@ -1,0 +1,26 @@
+{
+  "name": "tracking_events",
+  "description": "Operator-entered shipment milestones.",
+  "fields": {
+    "shipment_reference": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "event": {
+      "type": "string",
+      "enum": [
+        "picked_up",
+        "arrived",
+        "delivered"
+      ]
+    },
+    "occurred_at": {
+      "type": "string",
+      "format": "datetime"
+    }
+  },
+  "writable": true,
+  "unique": []
+}
