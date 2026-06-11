@@ -1,0 +1,36 @@
+{
+  "name": "shipments",
+  "description": "Outgoing shipment reservations created through dispatch.",
+  "fields": {
+    "product_id": {
+      "type": "string",
+      "ref": "products"
+    },
+    "warehouse_id": {
+      "type": "string",
+      "ref": "warehouses"
+    },
+    "quantity": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "destination": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "dispatched",
+        "in_transit",
+        "delivered"
+      ]
+    },
+    "reference": {
+      "type": "string"
+    }
+  },
+  "writable": false,
+  "unique": [
+    "reference"
+  ]
+}
