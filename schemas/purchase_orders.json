@@ -1,0 +1,35 @@
+{
+  "name": "purchase_orders",
+  "description": "Approved purchase orders awaiting a single atomic receipt.",
+  "fields": {
+    "supplier_id": {
+      "type": "string",
+      "ref": "suppliers"
+    },
+    "product_id": {
+      "type": "string",
+      "ref": "products"
+    },
+    "warehouse_id": {
+      "type": "string",
+      "ref": "warehouses"
+    },
+    "quantity": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "unit_cost_cents": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "approved",
+        "received"
+      ]
+    }
+  },
+  "writable": false,
+  "unique": []
+}
