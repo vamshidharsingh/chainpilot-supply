@@ -1,0 +1,21 @@
+{
+  "name": "routes",
+  "description": "Planned freight corridors.",
+  "fields": {
+    "name": {
+      "type": "string"
+    },
+    "origin": {
+      "type": "string"
+    },
+    "destination": {
+      "type": "string"
+    },
+    "distance_km": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "writable": true,
+  "unique": []
+}
