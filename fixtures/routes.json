@@ -1,0 +1,9 @@
+[
+  {
+    "id": "route-1",
+    "name": "North to South",
+    "origin": "Demo City",
+    "destination": "Sample City",
+    "distance_km": 340
+  }
+]
