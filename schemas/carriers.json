@@ -1,0 +1,17 @@
+{
+  "name": "carriers",
+  "description": "Freight carrier metadata without live carrier APIs.",
+  "fields": {
+    "name": {
+      "type": "string"
+    },
+    "service": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    }
+  },
+  "writable": true,
+  "unique": []
+}
