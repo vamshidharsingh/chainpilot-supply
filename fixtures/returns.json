@@ -1,0 +1,9 @@
+[
+  {
+    "id": "return-1",
+    "product_id": "product-2",
+    "quantity": 1,
+    "reason": "Synthetic packaging issue",
+    "status": "requested"
+  }
+]
