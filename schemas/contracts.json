@@ -1,0 +1,28 @@
+{
+  "name": "contracts",
+  "description": "Supplier contract planning metadata.",
+  "fields": {
+    "supplier_id": {
+      "type": "string",
+      "ref": "suppliers"
+    },
+    "reference": {
+      "type": "string"
+    },
+    "expires_on": {
+      "type": "string",
+      "format": "date"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "expired"
+      ]
+    }
+  },
+  "writable": true,
+  "unique": [
+    "reference"
+  ]
+}
