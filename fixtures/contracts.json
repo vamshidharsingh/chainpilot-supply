@@ -1,0 +1,9 @@
+[
+  {
+    "id": "contract-1",
+    "supplier_id": "supplier-1",
+    "reference": "DEMO-CONTRACT",
+    "expires_on": "2027-01-01",
+    "status": "active"
+  }
+]
