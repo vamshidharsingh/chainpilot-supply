@@ -1,0 +1,24 @@
+{
+  "name": "reorder_rules",
+  "description": "Minimum replenishment targets.",
+  "fields": {
+    "product_id": {
+      "type": "string",
+      "ref": "products"
+    },
+    "supplier_id": {
+      "type": "string",
+      "ref": "suppliers"
+    },
+    "minimum_quantity": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "order_quantity": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "writable": true,
+  "unique": []
+}
