@@ -1,0 +1,23 @@
+{
+  "name": "products",
+  "description": "SKU catalog and replenishment thresholds.",
+  "fields": {
+    "sku": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "reorder_point": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "writable": true,
+  "unique": [
+    "sku"
+  ]
+}
