@@ -1,0 +1,27 @@
+{
+  "name": "returns",
+  "description": "Return merchandise tracking metadata.",
+  "fields": {
+    "product_id": {
+      "type": "string",
+      "ref": "products"
+    },
+    "quantity": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "reason": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "requested",
+        "approved",
+        "closed"
+      ]
+    }
+  },
+  "writable": true,
+  "unique": []
+}
